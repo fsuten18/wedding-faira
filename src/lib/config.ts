@@ -1,7 +1,7 @@
 import { Message } from "@/types/message";
 
 export const METADATA = {
-  title: "Baralek Gadang Ira & Faizal",
+  title: "Pahargyan Agung Ira & Faizal",
   description:
     "Kepada Yth. Bapak/Ibu/Saudara/i kami mengundang untuk hadir di acara pernikahan kami",
   ogImages: `${process.env.BASE_URL}/assets/og-image.png`,
@@ -10,7 +10,7 @@ export const METADATA = {
 export const SITECONFIG = {
   logoSplashScreen: `/assets/logo-wedding.png`,
   introAvatars: [`/assets/profile-filda.png`, `/assets/profile-raffly.png`],
-  titleGroup: "Group Akad",
+  titleGroup: "Wedding Ira & Faizal",
   introTxtBtn: "Join Group",
   groomName: "Ira",
   brideName: "Faizal",
@@ -18,10 +18,10 @@ export const SITECONFIG = {
   subTitleGroup:
     "Grup ini dibuat untuk mengundang semua para tamu pernikahan Ira & Faizal",
   memberHeader: "Ira, Faizal",
-  groupTitleWithIcon1: "Baralek Gadang Ira & Faizal",
+  groupTitleWithIcon1: "Pahargyan Agung Ira & Faizal",
   groupTitleWithIcon2: "Media, Tautan, Dokumen",
   groupTitleWithIcon3: "Kirim Hadiah, untuk kedua mempelai",
-  descriptionGroup: `📝 Akad Nikah Faizal & Ira\n\nAssalamualaikum Warahmatullahi Wabarakatuh!\n\nDengan penuh rasa syukur dan bahagia, kami ingin berbagi kabar yang gembira. Kami akan melangsungkan acara pernikahan kami pada tanggal 30 Mei 2026. Kami ingin merayakan kebahagiaan ini bersama orang-orang terkasih dalam acara pernikahan kami.\n\n📅 Tanggal: 30 Mei 2026\n\n⏰ Waktu: 08.00 WIB\n\n📍 Tempat: Dusun Cumpleng, Desa Brondong, Kec. Brondong, Kab. Lamongan\n\nDoa dan restu kalian semua adalah anugrah terindah bagi perjalanan baru kami. Semoga pernikahan ini penuh berkah, cinta, dan kebahagiaan yang abadi. aamiin🙏🏼\n\nSalam hangat dari Faizal & Ira💕`,
+  descriptionGroup: `\nAssalamualaikum Warahmatullahi Wabarakatuh!\n\nDengan penuh rasa syukur dan bahagia, kami ingin berbagi kabar yang gembira. Kami akan melangsungkan acara pernikahan kami pada tanggal 30 Mei 2026. Kami ingin merayakan kebahagiaan ini bersama orang-orang terkasih dalam acara pernikahan kami.\n\n📅 Tanggal: 30 Mei 2026\n\n⏰ Waktu: 08.00 WIB\n\n📍 Tempat: Dusun Cumpleng, Desa Brondong, Kec. Brondong, Kab. Lamongan\n\nDoa dan restu kalian semua adalah anugrah terindah bagi perjalanan baru kami. Semoga pernikahan ini penuh berkah, cinta, dan kebahagiaan yang abadi. aamiin🙏🏼\n\nSalam hangat dari Faizal & Ira💕`,
   imgGift: "/assets/kirim-hadiah.png",
   linkMap: "https://maps.app.goo.gl/GvWyJUzWKY6QW7Uz7",
   noRekening: "6059 01 016191 539",
@@ -30,7 +30,7 @@ export const SITECONFIG = {
   expiryDate: "30/26",
   videoCall: "/assets/video-call.mp4",
   voiceCall: "/assets/voice-call.wav",
-  bgMusic: "/assets/tenxi-bintang5.mp3",
+  bgMusic: "/assets/donne.mp3",
 };
 
 export const dummyMessages: Message[] = [
