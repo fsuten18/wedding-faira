@@ -1,5 +1,5 @@
 import { Loader2, SendIcon } from "lucide-react";
-import { useSearchParams } from "next/navigation";
+import { useRouter,useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
@@ -9,6 +9,7 @@ import { isSpamMessage } from "@/lib/utils";
 
 export default function InputMessage() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const guestName = searchParams.get("to") || "Tamu Undangan";
 
   const [message, setMessage] = useState("");
@@ -54,6 +55,7 @@ export default function InputMessage() {
       }
 
       toast.success("Pesan telah terkirim, terima kasih!");
+      router.refresh();
     } catch (error) {
       console.error("Error sending message", error);
       toast.error("Gagal mengirim pesan");
