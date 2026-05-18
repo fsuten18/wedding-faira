@@ -100,6 +100,7 @@ export const GALLERY_IMAGES = [
   "/assets/prewed/image-1.jpg",
   "/assets/prewed/image-2.jpg",
   "/assets/prewed/image-3.jpg",
+  "/assets/prewed/image-4.jpg",
   "/assets/prewed/image-5.jpg",
   "/assets/prewed/image-6.jpg",
   "/assets/prewed/image-7.jpg",
