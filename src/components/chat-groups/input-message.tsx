@@ -55,7 +55,6 @@ export default function InputMessage() {
       }
 
       toast.success("Pesan telah terkirim, terima kasih!");
-      router.refresh();
     } catch (error) {
       console.error("Error sending message", error);
       toast.error("Gagal mengirim pesan");
@@ -91,5 +90,6 @@ export default function InputMessage() {
         )}
       </Button>
     </div>
+    
   );
 }
