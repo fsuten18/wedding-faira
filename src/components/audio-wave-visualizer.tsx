@@ -26,7 +26,7 @@ export default function AudioWaveVisualizer({
       {bars.map((bar) => (
         <motion.div
           key={bar.id}
-          className="w-1.5 bg-white rounded-full"
+          className="w-1.5 bg-black rounded-full"
           initial={{ height: 8 }}
           animate={
             isPlaying

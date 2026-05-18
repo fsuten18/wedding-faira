@@ -30,7 +30,13 @@ export default function NavMenu() {
         align="end"
       >
         <div className="flex flex-col items-start gap-y-2">
-          <Link href={toParam ? `/?to=${encodeURIComponent(toParam)}` : "/group-description"}>
+          <Link
+            href={
+              toParam
+                ? `/group-description?to=${encodeURIComponent(toParam)}`
+                : "/group-description"
+            }
+          >
             <p>Deskripsi Grup</p>
           </Link>
           <button
